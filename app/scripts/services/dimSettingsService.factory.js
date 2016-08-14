@@ -20,7 +20,7 @@
   function SettingsService($rootScope, SyncService, $window, $translate) {
     var _loaded = false;
 
-    const destinyLanguages = ['de', 'en', 'fr', 'es', 'it', 'ja', 'pt-br'];
+    const destinyLanguages = ['de', 'en', 'es', 'fr', 'it', 'pt-br', 'ja'];
 
     // Try to pick a nice default language
     function defaultLanguage() {

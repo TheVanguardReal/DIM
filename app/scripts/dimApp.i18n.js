@@ -7,6 +7,18 @@
       $translateProvider.useSanitizeValueStrategy('escape');
 
       $translateProvider
+        .translations('de', {
+          Weapons: "Waffen",
+          Armor: "Rüstung",
+          General: "Allgemein",
+          Postmaster: "Poststelle",
+          Equip: "Ausrüsten",
+          Vault: "Tresor",
+          Progress: "Fortschritt",
+          Vendors: "Händler",
+          Vanguard: "Vorhut",
+          Reputation: "Ruf"
+        })
         .translations('en', {
           Level: "Level",
           Weapons: "Weapons",
@@ -20,30 +32,17 @@
           Vanguard: "Vanguard",
           Reputation: "Reputation"
         })
-        .translations('it', {
-          Level: "Livello",
-          Weapons: "Armi",
-          Armor: "Armatura",
-          General: "Generale",
-          Postmaster: "Amministratrice",
-          Equip: "Equipaggia",
-          Vault: "Depositi",
-          Progress: "Progresso",
-          Vendors: "Mercanti",
-          Vanguard: "Avanguardia",
-          Reputation: "Reputazione"
-        })
-        .translations('de', {
-          Weapons: "Waffen",
-          Armor: "Rüstung",
-          General: "Allgemein",
-          Postmaster: "Poststelle",
-          Equip: "Ausrüsten",
-          Vault: "Tresor",
-          Progress: "Fortschritt",
-          Vendors: "Händler",
-          Vanguard: "Vorhut",
-          Reputation: "Ruf"
+        .translations('es', {
+          Level: "Nivel",
+          Weapons: "Armas",
+          Armor: "Armadura",
+          Postmaster: "Administración",
+          Equip: "Equipar",
+          Vault: "Depósito",
+          Progress: "Progreso",
+          Vendors: "Comerciantes",
+          Vanguard: "Vanguardia",
+          Reputation: "Reputación"
         })
         .translations('fr', {
           Level: "Niveau",
@@ -58,30 +57,18 @@
           Vanguard: "Avant-garde",
           Reputation: "Estime"
         })
-        .translations('es', {
-          Level: "Nivel",
-          Weapons: "Armas",
-          Armor: "Armadura",
-          Postmaster: "Administración",
-          Equip: "Equipar",
-          Vault: "Depósito",
-          Progress: "Progreso",
-          Vendors: "Comerciantes",
-          Vanguard: "Vanguardia",
-          Reputation: "Reputación"
-        })
-        .translations('ja', {
-          Level: "レベル",
-          Weapons: "武器",
-          Armor: "よろい",
-          General: "全般",
-          Postmaster: "ポストマスター",
-          Equip: "装備する",
-          Vault: "装備",
-          Progress: "進行状況",
-          Vendors: "ベンダー",
-          Vanguard: "バンガード",
-          Reputation: "評価"
+        .translations('it', {
+          Level: "Livello",
+          Weapons: "Armi",
+          Armor: "Armatura",
+          General: "Generale",
+          Postmaster: "Amministratrice",
+          Equip: "Equipaggia",
+          Vault: "Depositi",
+          Progress: "Progresso",
+          Vendors: "Mercanti",
+          Vanguard: "Avanguardia",
+          Reputation: "Reputazione"
         })
         .translations('pt-br', {
           Level: "Nível",
@@ -95,6 +82,19 @@
           Vendors: "Vendedores",
           Vanguard: "Vanguarda",
           Reputation: "Reputação"
+        })        
+        .translations('ja', {
+          Level: "レベル",
+          Weapons: "武器",
+          Armor: "よろい",
+          General: "全般",
+          Postmaster: "ポストマスター",
+          Equip: "装備する",
+          Vault: "装備",
+          Progress: "進行状況",
+          Vendors: "ベンダー",
+          Vanguard: "バンガード",
+          Reputation: "評価"
         })
         .fallbackLanguage('en');
     }]);

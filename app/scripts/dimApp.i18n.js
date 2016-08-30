@@ -114,7 +114,7 @@
           Equip: "Equipar",
           General: "Geral",
           Postmaster: "Chefe do Correio",
-          Vault: "Cofres",
+          Vault: "Cofre",
           Progress: "Progresso",
           Vendors: "Vendedores",
           Days: "Dias",
